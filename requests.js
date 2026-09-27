@@ -210,7 +210,7 @@
       return;
     }
     values.set('name', values.get('first_name') + ' ' + values.get('last_name'));
-    values.set('website', config.website || 'https://acprotectionhouston.com');
+    values.set('website', config.website || 'https://acfireprotectionhouston.com');
     values.set('time_zone', 'America/Chicago');
     values.set('subject', 'AC Fire Protection — ' + type + ' request');
     if (type !== 'Appointment') {
