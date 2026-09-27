@@ -7,6 +7,6 @@ window.AC_FIRE_CONFIG = Object.freeze({
   businessName: 'AC Fire Protection',
   phoneDisplay: '713-998-8149',
   phoneNumber: '+17139988149',
-  website: 'https://acfireprotectionhouston.com',
+  website: 'https://acprotectionhouston.com',
   timeZone: 'America/Chicago'
 });
