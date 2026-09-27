@@ -305,6 +305,7 @@ body{background:#090a0d;color:#f6f7f8}
 @keyframes hero-bg-cycle{0%,18%{opacity:1;transform:scale(1.04)}24%,100%{opacity:0;transform:scale(1.1)}}
 .hero-grid{min-height:calc(100vh - 142px);grid-template-columns:minmax(0,.72fr) minmax(0,.28fr);align-items:center}
 .hero-copy{padding:84px 0 70px;max-width:735px}
+.hero>.hero-grid{width:100%;max-width:none;padding-left:clamp(28px,7vw,132px);padding-right:clamp(28px,7vw,132px)}
 .hero .eyebrow{color:#ffc45d;letter-spacing:.16em}.accent-line{background:#ffc45d}
 h1{font-size:clamp(4.25rem,7.4vw,7.85rem);letter-spacing:-.058em;color:#fff;text-shadow:0 8px 38px #0009}
 .accent-word{color:#fff}
